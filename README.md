@@ -1,59 +1,48 @@
-Simple Calculator using Tkinter
+# Simple GUI Calculator using Tkinter
 
-Description
+This Python program creates a simple GUI calculator using the Tkinter library. Users can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-This is a simple GUI-based calculator built using Python's Tkinter library. The calculator allows users to perform basic arithmetic operations, including addition, subtraction, multiplication, and division.
+## Features
 
-Features
+- Addition (+)
+- Subtraction (-)
+- Multiplication (*)
+- Division (/)
 
-Basic arithmetic operations: Addition (+), Subtraction (-), Multiplication (*), and Division (/)
+## Getting Started
 
-Clear button to reset the input field
+### Prerequisites
 
-Decimal point support
+Make sure you have the following installed on your system:
 
-User-friendly interface with a light green background
+- Python (3.x recommended)
 
-Prerequisites
+### Running the Calculator
 
-Ensure that you have Python installed on your system. This program uses Tkinter, which is included in standard Python distributions.
+1. **Clone the Repository:**
 
-Installation
+   ```bash
+   git clone https://github.com/your-username/calculator.git
+Navigate to the Project Directory:
+cd calculator
 
-Clone or download this repository.
-
-Ensure you have Python installed (Python 3.x recommended).
-
-No additional dependencies are required.
-
-Usage
-
-Run the script using:
-
+Run the Calculator:
 python calculator.py
 
-A calculator GUI will appear.
+Usage:
 
-Click on the buttons to input numbers and operators.
+Enter numbers using the number buttons (0-9).
+Perform operations using the corresponding operator buttons (+, -, *, /).
+Press the "=" button to evaluate the expression.
+Press the "Clear" button to clear the input.
 
-Press = to evaluate the expression.
+Requirements:
 
-Press Clear to reset the input field.
+Python 3.x
 
-Code Overview
+Contributing:
 
-press(num): Updates the expression with the selected number/operator.
+Feel free to contribute to the development of this calculator by submitting pull requests. If you find any issues or have suggestions, please open an issue.
 
-equalpress(): Evaluates the expression and displays the result.
-
-clear(): Resets the input field.
-
-The buttons are created using Tkinter's Button widget and arranged using the grid method.
-
-License
-
-This project is open-source and can be used freely.
-
-Author
-
-AASHMIT BHASIN
+License:
+This project is licensed under the MIT License - see the LICENSE file for details.
